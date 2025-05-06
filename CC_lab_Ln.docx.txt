@@ -1,0 +1,110 @@
+﻿CC_IT  lab link
+Experiment No.1
+Software:https://www.npackd.org/p/com.google.AppEnginePythonSDK/1.9.62
+                 https://www.python.org/downloads/release/python-279/
+you tube link-https://www.youtube.com/watch?v=2lhOEO-zmjw
+
+
+Experiment No.2
+you tube link-https://www.youtube.com/watch?v=8re44RiaocY
+git  clone https://github.com/GoogleCloudPlatform/python-docs-samples
+cd  python-docs-samples/appengine/standard_python3/hello_world
+gcloud app deploy 
+gcloud app browse
+Experiment No.3
+https://www.java.com/en/download/manual.jsp
+you tube link-- https://www.youtube.com/watch?v=ECspmdIP2p8&list=PLAGbw_jMm-Lv-Cvngigyb8-bJc4LQGpPv&index=2
+cloudsim3.0.3 - https://github.com/Cloudslab/cloudsim/releases/tag/cloudsim-3.0.3
+math jar file - https://commons.apache.org/math/download_math.cgi
+
+
+Experiment No.4
+you tube link-https://www.youtube.com/watch?v=0MaS0nZCTZc
+or SPPU LP-II Cloud Computing Lab Assignment 4 || Third Year Information Technology Sem-VI || CC Lab-4
+software- https://drive.google.com/drive/folders/1tGymk7GFpiff2EnHlkdKk4la-M3F651q?usp=drive_link
+
+
+Experiment No.5
+you tube link-https://www.youtube.com/watch?v=i-Od-CELQoI
+or Google Compute Engine in Google Cloud: Create first GCP VM Instance
+
+
+
+
+Experiment No.6
+you tube link-Deploy Simple web application on GCP VM
+Create an Apache web server on a Linux VM
+  
+
+Learn how to:
+1. Create a Linux VM in Compute Engine.
+2. Log in to the VM.
+3. Install Apache web server on the VM.
+4. Create and view a simple website.
+Steps  A
+1. Create a new project to ensure that you have the permissions that you need or select an existing project in which you have the relevant permissions.
+
+
+2. Click Enable APIs to enable the required APIs for the tutorial.
+The necessary APIs are enabled:
+   * Compute Engine API
+Steps  B
+Create the server VM
+1. In the Google Cloud console, go to the VM instances page.
+2. When the VM instances page is ready, click Create instance.
+3. In the Name field, enter a name for your VM.
+If you don't have a specific name to use, then enter example-vm.
+4. In the Region list, select your region or zone. Regions are collections of zones. Zones have high-bandwidth, low-latency network connections to other zones in the same region.
+If you don't have a specific region to use, then select us-central1 for demonstration purposes.
+5. In the Zone list, select the appropriate zone.
+A zone is a deployment area within a region. Depending on how widely you want to distribute your resources, create VMs across multiple zones in multiple regions for redundancy.
+If you don't have a specific zone to use, then select us-central1-a for demonstration purposes.
+6. In the navigation menu, click OS and storage.
+7. Click Change.
+8. In the Boot disk pane, on the Public images tab (default), select the following options:
+   1. In the Operating system list, select Debian.
+   2. In the Version list, keep the default value.
+   3. In the Boot disk type list, select SSD persistent disk.
+   4. Click Select.
+9. In the navigation menu, click Data protection.
+10. In the Back up your data section, select No backups.
+11. In the navigation menu, click Networking.
+12. In the Firewall section, select Allow HTTP traffic.
+13. Click Create.
+Your new VM will be listed on the VM instances page. When a checkmark appears, you can connect to the VM and install software.
+
+
+Steps  C
+Install an Apache server
+1. To open a terminal to your VM, in the Connect column, click SSH.
+A new cmd window opens showing you are connected to your VM terminal. 
+For help with connection issues, see Troubleshooting SSH errors.
+2. Update the package lists on your VM:
+Type command 
+sudo -i and   then     sudo apt-get update
+When this process is finished, you get this message:
+Reading package lists... Done
+3. Install the Apache2 HTTP Server:
+sudo apt-get install apache2 php7.0
+4. Overwrite the Apache web server default web page with the following command:
+echo '<!doctype html><html><body><h1>Hello World!</h1></body></html>' | sudo tee /var/www/html/index.html
+ steps D
+Test your server
+1. In the Google Cloud console, go to VM instances.
+2. In the External IP column, copy the VM's IP address.
+3. Paste the IP address in a new browser tab.
+you will see your Hello World! page,
+
+
+Experiment No.7 Design and develop custom Application (Mini Project) using Salesforce Cloud. 
+Sign up for salesforce using below link
+developer.salesforce.com/developer-legacy/signup
+and then login using  below link 
+https://login.salesforce.com/?locale=in
+
+
+youtube link- https://www.youtube.com/watch?v=YuudXp_1HB0
+
+
+Experiment No.8
+Building Secure User Authentication with Firebase, Google App Engine, and Cloud Datastore
